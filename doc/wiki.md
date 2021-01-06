@@ -5,3 +5,10 @@
   * [v1(旧バージョン)](https://github.com/takahi5/news-app-hooks)
 * Section02
   * [Introduction to Expo](https://docs.expo.io/)
+
+## Note
+* Delete .git file (then you can push folder)
+```
+ls -a
+rm -rf .git
+```
