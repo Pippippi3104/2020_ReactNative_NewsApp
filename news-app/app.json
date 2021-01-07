@@ -25,6 +25,9 @@
         "backgroundColor": "#FFFFFF"
       }
     },
+    "extra": {
+      "newsApiKey": "06ee0c03f80549f3afb919dd705b7c4a"
+    },
     "web": {
       "favicon": "./assets/favicon.png"
     }

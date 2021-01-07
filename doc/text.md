@@ -2,7 +2,12 @@
 * 複雑なUIをComponentを組み合わせて表現
   * 2種類書き方あり
     * Function Component
+      * Hooks
+        * useState
+        * useEffect
     * Class Component
+      * State
+      * ライフサイクル(ComponentDidMount(useEffect的な物)など)
 * 適切な粒度で作成することで以下が向上
   * 可読性
   * 再利用性
