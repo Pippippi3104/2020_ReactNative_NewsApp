@@ -17,6 +17,8 @@
 * Section04
   * [レイアウトの修正](https://github.com/takahi5/news-app-v2/tree/sec5/component)
   * [props経由でデータを渡す](https://github.com/takahi5/news-app-v2/tree/sec5/props)
+  * [一覧表示](https://github.com/takahi5/news-app-v2/tree/sec5/list)
+  * [ダミー記事](https://github.com/takahi5/news-app-v2/blob/master/dummies/articles.json)
 
 ## Note
 * Delete .git file (then you can push folder)
