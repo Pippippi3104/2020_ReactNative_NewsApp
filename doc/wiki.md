@@ -5,6 +5,8 @@
   * [v1(旧バージョン)](https://github.com/takahi5/news-app-hooks)
 * Section02
   * [Introduction to Expo](https://docs.expo.io/)
+* Section03
+  * [レイアウトの区画整理](https://github.com/takahi5/news-app-v2/tree/sec4/layout)
 
 ## Note
 * Delete .git file (then you can push folder)
