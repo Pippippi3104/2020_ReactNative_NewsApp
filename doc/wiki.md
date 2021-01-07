@@ -7,6 +7,9 @@
   * [Introduction to Expo](https://docs.expo.io/)
 * Section03
   * [レイアウトの区画整理](https://github.com/takahi5/news-app-v2/tree/sec4/layout)
+  * [画像を表示する](https://github.com/takahi5/news-app-v2/tree/sec4/image)
+  * [Image](https://reactnative.dev/docs/image)
+  * [Lorem Picsum](https://picsum.photos/)
 
 ## Note
 * Delete .git file (then you can push folder)
