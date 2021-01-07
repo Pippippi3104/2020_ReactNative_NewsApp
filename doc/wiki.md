@@ -16,6 +16,7 @@
   * [レイアウトの調整](https://github.com/takahi5/news-app-v2/tree/sec4/adjust-layout)
 * Section04
   * [レイアウトの修正](https://github.com/takahi5/news-app-v2/tree/sec5/component)
+  * [props経由でデータを渡す](https://github.com/takahi5/news-app-v2/tree/sec5/props)
 
 ## Note
 * Delete .git file (then you can push folder)
