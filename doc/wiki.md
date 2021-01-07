@@ -14,6 +14,8 @@
   * [Text](https://reactnative.dev/docs/text)
   * [lorem ipsum](https://ja.wikipedia.org/wiki/Lorem_ipsum)
   * [レイアウトの調整](https://github.com/takahi5/news-app-v2/tree/sec4/adjust-layout)
+* Section04
+  * [レイアウトの修正](https://github.com/takahi5/news-app-v2/tree/sec5/component)
 
 ## Note
 * Delete .git file (then you can push folder)
