@@ -29,6 +29,9 @@
  * [Search worldwide news with code](https://newsapi.org/)
  * [Configuration with app.json / app.config.js](https://docs.expo.io/workflow/configuration/)
  * [Constants](https://docs.expo.io/versions/latest/sdk/constants/)
+ * [テンプレートリテラル (テンプレート文字列)](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Template_literals)
+ * [axios](https://github.com/axios/axios)
+ * [delete console log](https://github.com/takahi5/news-app-v2/tree/sec6/axios)
 
 ## Note
 * Delete .git file (then you can push folder)
