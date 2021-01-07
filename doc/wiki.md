@@ -10,6 +10,10 @@
   * [画像を表示する](https://github.com/takahi5/news-app-v2/tree/sec4/image)
   * [Image](https://reactnative.dev/docs/image)
   * [Lorem Picsum](https://picsum.photos/)
+  * [テキストを表示する](https://github.com/takahi5/news-app-v2/tree/sec4/text)
+  * [Text](https://reactnative.dev/docs/text)
+  * [lorem ipsum](https://ja.wikipedia.org/wiki/Lorem_ipsum)
+  * [レイアウトの調整](https://github.com/takahi5/news-app-v2/tree/sec4/adjust-layout)
 
 ## Note
 * Delete .git file (then you can push folder)

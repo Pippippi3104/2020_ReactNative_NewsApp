@@ -18,13 +18,23 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   leftContainer: {
-    backgroundColor: "red",
     width: 100,
   },
   rightContainer: {
-    backgroundColor: "blue",
     /* 使える幅を全て使う */
     flex: 1,
+    /* 列方向に整列（デフォルト） */
+    flexDirection: "column",
+    padding: 10,
+    /* いい感じに行間を調整 */
+    justifyContent: "space-between",
+  },
+  text: {
+    fontSize: 16,
+  },
+  subText: {
+    fontSize: 12,
+    color: "gray",
   },
 });
 
@@ -38,7 +48,12 @@ export default function App() {
             source={{uri: 'https://picsum.photos/id/10/200/200'}}
           />
         </View>
-        <View style={styles.rightContainer} />
+        <View style={styles.rightContainer}>
+          <Text numberOfLines={3} style={styles.text}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          </Text>
+          <Text style={styles.subText}>ReactNews</Text>
+        </View>
       </View>
     </View>
   );
