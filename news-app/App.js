@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, FlatList, SafeAreaView } from 'react-native';
 import ListItem from "./components/ListItem";
-import articles from "./dummies/articles.json";
+import dummyArticles from "./dummies/articles.json";
 
 const styles = StyleSheet.create({
   container: {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
 export default function App() {
 
   /* 面倒な書き方 */
-  const items = articles.map( (article, index) => {
+  const items = dummyArticles.map( (article, index) => {
     return (
       <ListItem 
         imageUrl={article.urlToImage}
@@ -26,6 +26,15 @@ export default function App() {
       />
     );
   });
+
+  /* hook利用 */
+  const [articles, setArticles] = useState([dummyArticles])
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setArticles(dummyArticles);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <SafeAreaView style={styles.container}>
