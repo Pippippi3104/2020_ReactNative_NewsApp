@@ -14,6 +14,17 @@ const styles = StyleSheet.create({
     width: "100%",
     borderColor: "gray",
     borderWidth: 1,
+    /* 行方向に整列 */
+    flexDirection: "row",
+  },
+  leftContainer: {
+    backgroundColor: "red",
+    width: 100,
+  },
+  rightContainer: {
+    backgroundColor: "bleu",
+    /* 使える幅を全て使う */
+    flex: 1,
   },
 });
 
@@ -21,6 +32,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.itemContainer}>
+        <View style={styles.leftContainer} />
+        <View style={styles.rightContainer} />
       </View>
     </View>
   );
