@@ -26,6 +26,9 @@
  * [hook](https://ja.reactjs.org/docs/hooks-intro.html)
  * [基本のフック](https://ja.reactjs.org/docs/hooks-reference.html#usestate)
  * [useEffect](https://ja.reactjs.org/docs/hooks-reference.html#useeffect)
+ * [Search worldwide news with code](https://newsapi.org/)
+ * [Configuration with app.json / app.config.js](https://docs.expo.io/workflow/configuration/)
+ * [Constants](https://docs.expo.io/versions/latest/sdk/constants/)
 
 ## Note
 * Delete .git file (then you can push folder)
