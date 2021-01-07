@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, View, FlatList, SafeAreaView } from 'react-native';
 import ListItem from "./components/ListItem";
 import articles from "./dummies/articles.json";
 
@@ -7,12 +7,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    /* alignItems: 'center',
+    justifyContent: 'center', */
   },
 });
 
 export default function App() {
+
+  /* 面倒な書き方 */
   const items = articles.map( (article, index) => {
     return (
       <ListItem 
@@ -26,9 +28,22 @@ export default function App() {
   });
 
   return (
-    <View style={styles.container}>
-      {items}
-    </View>
+    <SafeAreaView style={styles.container}>
+      {/* {items} */}
+
+      {/* スクロールできるようになる */}
+      <FlatList 
+        data={articles}
+        renderItem={({ item }) => (
+          <ListItem
+            imageUrl={item.urlToImage} 
+            title={item.title}
+            author={item.author}
+          />
+        )}
+        keyExtractor={(item, index) => index.toString()}
+      />
+    </SafeAreaView>
   );
 }
 
