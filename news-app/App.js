@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     width: 100,
   },
   rightContainer: {
-    backgroundColor: "bleu",
+    backgroundColor: "blue",
     /* 使える幅を全て使う */
     flex: 1,
   },
@@ -32,7 +32,12 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.itemContainer}>
-        <View style={styles.leftContainer} />
+        <View style={styles.leftContainer}>
+          <Image
+            style={{width: 100, height: 100}}
+            source={{uri: 'https://picsum.photos/id/10/200/200'}}
+          />
+        </View>
         <View style={styles.rightContainer} />
       </View>
     </View>
