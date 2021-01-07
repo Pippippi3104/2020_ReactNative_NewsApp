@@ -23,7 +23,9 @@
   * [FlatList](https://github.com/takahi5/news-app-v2/tree/sec5/flatlist)
   * [SafeAreaView](https://reactnative.dev/docs/safeareaview)
 * Section06
- * []()
+ * [hook](https://ja.reactjs.org/docs/hooks-intro.html)
+ * [基本のフック](https://ja.reactjs.org/docs/hooks-reference.html#usestate)
+ * [useEffect](https://ja.reactjs.org/docs/hooks-reference.html#useeffect)
 
 ## Note
 * Delete .git file (then you can push folder)
