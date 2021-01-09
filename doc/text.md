@@ -24,3 +24,14 @@
     * 状態・可変
     * 例）state.hungry: true
     * stateを変更することで画面が更新される
+* Redux
+  * Store
+    * 状態を保存、Componentが変更する
+  * Component
+    * Action(Type, Payload)をReducerにDispatchする
+      * Type   :予め定義された文字列
+      * Payload:Action実行時に使用される任意のデータ
+  * Reducer
+    * Storeを更新する
+    * Payloadを受けて、Old State から　New State を作成、Storeに保村
+      * 新しいStateを作成しているところがポイント
