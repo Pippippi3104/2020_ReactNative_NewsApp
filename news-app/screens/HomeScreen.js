@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 });
 
 /* export default HomeScreen = () => では動かない */
-export default function HomeScreen() {
+export default function HomeScreen({navigation}) {
 
   /* 面倒な書き方 */
   const items = dummyArticles.map( (article, index) => {
@@ -61,6 +61,7 @@ export default function HomeScreen() {
             imageUrl={item.urlToImage} 
             title={item.title}
             author={item.author}
+            onPress={() => navigation.navigate("Article", {article: item})}
           />
         )}
         keyExtractor={(item, index) => index.toString()}

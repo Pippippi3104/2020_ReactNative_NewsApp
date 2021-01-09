@@ -37,6 +37,10 @@
   * [Getting started](https://reactnavigation.org/docs/getting-started/)
   * [createStackNavigator](https://reactnavigation.org/docs/stack-navigator/)
   * [AppNavigator追加](https://github.com/takahi5/news-app-v2/tree/sec7/stack-navigator)
+  * [TouchableOpacity](https://reactnative.dev/docs/touchableopacity)
+  * [Moving between screens](https://reactnavigation.org/docs/navigating/)
+  * [WebView](https://docs.expo.io/versions/latest/sdk/webview/)
+  * [Passing parameters to routes](https://reactnavigation.org/docs/params/)
 
 ## Note
 * Delete .git file (then you can push folder)
