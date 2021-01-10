@@ -41,10 +41,15 @@
   * [Moving between screens](https://reactnavigation.org/docs/navigating/)
   * [WebView](https://docs.expo.io/versions/latest/sdk/webview/)
   * [Passing parameters to routes](https://reactnavigation.org/docs/params/)
-* Section08
+* Section09
   * [SplashScreen](https://docs.expo.io/versions/latest/sdk/splash-screen/)
   * [App Icons](https://docs.expo.io/guides/app-icons/)
   * [ActivityIndicator](https://docs.expo.io/versions/latest/react-native/activityindicator/)
+* Section10
+  * [Publishing updates](https://docs.expo.io/workflow/publishing/)
+  * [Building Standalone Apps](https://docs.expo.io/distribution/building-standalone-apps/)
+  * [appstore](https://apps.apple.com/jp/app/transporter/id1450874784)
+  * [iTunseConnect](https://itunesconnect.apple.com/login)
 
 ## Note
 * Delete .git file (then you can push folder)
