@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
 import ListItem from "../components/ListItem";
+import Loading from "../components/Loading";
 import dummyArticles from "../dummies/articles.json";
 import Constants from "expo-constants";
 import axios from "axios";
@@ -33,13 +34,15 @@ export default function HomeScreen({navigation}) {
   });
 
   /* hook利用 */
-  const [articles, setArticles] = useState([])
+  const [articles, setArticles] = useState([]);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     fetchArticles();
   }, []);
 
   /* NewsAPI */
   const fetchArticles = async () => {
+    setLoading(true);
     try {
       const response = await axios.get(URL);
       setArticles(response.data.articles);
@@ -47,6 +50,7 @@ export default function HomeScreen({navigation}) {
     } catch (error) {
       console.error(error);
     }
+    setLoading(false);
   };
 
   return (
@@ -66,6 +70,7 @@ export default function HomeScreen({navigation}) {
         )}
         keyExtractor={(item, index) => index.toString()}
       />
+      {loading && <Loading />}
     </SafeAreaView>
   );
 }
