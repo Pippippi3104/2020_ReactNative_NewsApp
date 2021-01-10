@@ -41,6 +41,10 @@
   * [Moving between screens](https://reactnavigation.org/docs/navigating/)
   * [WebView](https://docs.expo.io/versions/latest/sdk/webview/)
   * [Passing parameters to routes](https://reactnavigation.org/docs/params/)
+* Section08
+  * [SplashScreen](https://docs.expo.io/versions/latest/sdk/splash-screen/)
+  * [App Icons](https://docs.expo.io/guides/app-icons/)
+  * [ActivityIndicator](https://docs.expo.io/versions/latest/react-native/activityindicator/)
 
 ## Note
 * Delete .git file (then you can push folder)
